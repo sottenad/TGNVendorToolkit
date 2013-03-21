@@ -12,6 +12,7 @@
 * Mobile Consideration
 * Legacy Browser Consideration
 * SEO
+* Share/tweet words
 
 
 ##About this download:
