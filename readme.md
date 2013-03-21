@@ -8,9 +8,11 @@
 
 
 ##Pre-Scope Checklist / Release Checklist
-* Tagging (omniture or webtrends)
-* Mobile
+* Tagging (omniture or webtrends) requirements
+* Mobile Consideration
+* Legacy Browser Consideration
 * SEO
+
 
 ##About this download:
 
