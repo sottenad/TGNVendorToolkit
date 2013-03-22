@@ -19,14 +19,14 @@
 
 ##Included JS:
 The TGN Feature template is very sparse in terms of included javascript. We only include
-* jQuery 1.6.1 - Please use this unless you absolutely need a newer version
-* jQuery.mediaqueries.js - Handles css media queries for legacy browsers
-* Share.js - This includes common sharing methods. Please read the file for a full source, but common usage for this plugin looks something like this:
+* **jQuery 1.6.1** - Please use this unless you absolutely need a newer version
+* **jQuery.mediaqueries.js** - Handles css media queries for legacy browsers
+* **Share.js** - This includes common sharing methods. Please read the file for a full source, but common usage for this plugin looks something like this:
 		
-	$('.fbShare').click(function(){
-		openSharingSite('facebook', 'The Future of Food - The Gates Notes');
-		return false;
-	});
+    $('.fbShare').click(function(){
+        openSharingSite('facebook', 'The Future of Food - The Gates Notes');
+        return false;
+    });
 
 ##Usage Instructions:
 Download this branch by either cloning it to your system (if you familiar with Git) or clicking the "ZIP" button to download a zipped copy of the entire file structure.
@@ -38,3 +38,8 @@ To get started with the feature, look between the large comments just inside the
 Please include any additional css or scripts either linked to (shown in sample) or inline (using `<style>` and `<script>` tags). Either method will work fine, but including them inline will provide more flexibility when launching, as you can edit these files via the editor in the CMS.
 
 ##Publication Steps:
+Once you have created a feature using the sample, you'll need to prepare your feature for publication. To do this, you'll first need to test fairly exentsively against the following browsers: IE8, IE9, IE10, Firefox, Chrome, Safari (all latest).
+
+After verifing that your feature passes all tests, please zip your project and email to your project sponsor for further testing/initial deployment to our Staging environment. In staging, you'll recieve a login to being testing and tweaking your code to ensure that your feature integrated properly with the rest of the site. 
+
+After verification in staging, the publishing to production is handled by the TGN team.
