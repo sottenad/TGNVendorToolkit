@@ -19,14 +19,14 @@
 
 ##Included JS:
 The TGN Feature template is very sparse in terms of included javascript. We only include
-* jQuery 1.6.1 - Please use this unless you absolutely need a newer version
-* jQuery.mediaqueries.js - Handles css media queries for legacy browsers
-* Share.js - This includes common sharing methods. Please read the file for a full source, but common usage for this plugin looks something like this:
-		
-	$('.fbShare').click(function(){
-		openSharingSite('facebook', 'The Future of Food - The Gates Notes');
-		return false;
-	});
+* **jQuery 1.6.1** - Please use this unless you absolutely need a newer version
+* **jQuery.mediaqueries.js** - Handles css media queries for legacy browsers
+* **Share.js** - This includes common sharing methods. Please read the file for a full source, but common usage for this plugin looks something like this:
+	
+        $('.fbShare').click(function(){
+                openSharingSite('facebook', 'The Future of Food - The Gates Notes');
+                return false;
+        });
 
 ##Usage Instructions:
 Download this branch by either cloning it to your system (if you familiar with Git) or clicking the "ZIP" button to download a zipped copy of the entire file structure.
